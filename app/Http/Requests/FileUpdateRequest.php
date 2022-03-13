@@ -24,7 +24,7 @@ class FileUpdateRequest extends FormRequest
     public function rules()
     {
         return [
-            'file'          =>  'nullable|image',
+            'filename'          =>  'nullable|image',
             'description'   =>  'required|max:300'
         ];
     }
